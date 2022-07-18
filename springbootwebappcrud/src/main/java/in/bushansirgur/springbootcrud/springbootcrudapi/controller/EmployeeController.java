@@ -51,7 +51,7 @@ public class EmployeeController {
 		return mv;
 	}
 
-	/*this function is used to edit employee from the database based on the id here id is passed using Querystring*/
+	/*this function is used to edit employees from the database based on the id here id is passed using Querystring*/
 	@RequestMapping("/employee")
 	public ModelAndView get(@RequestParam("id") int id) {
 		   Employee empolyeeObj = employeeService.get(id);
