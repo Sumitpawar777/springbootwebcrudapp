@@ -72,6 +72,7 @@ public class EmployeeController {
 		return mvn;
 	}
 	
+	/*this function used to update employee object*
 	@PutMapping("/employee")
 	public Employee update(@RequestBody Employee employeeObj) {
 		employeeService.save(employeeObj);
